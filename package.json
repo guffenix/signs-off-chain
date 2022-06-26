@@ -1,0 +1,33 @@
+{
+  "name": "signs-off-chain",
+  "version": "1.0.0",
+  "description": "Simulation of signs a contract off-chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sign",
+    "contract",
+    "offchain",
+    "EIP712",
+    "ERC20",
+    "eth",
+    "tokens"
+  ],
+  "author": "Luis Fernando Ushiña",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/hardhat-upgrades": "^1.19.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.9.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/contracts-upgradeable": "^4.6.0"
+  }
+}
